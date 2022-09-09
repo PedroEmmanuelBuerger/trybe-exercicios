@@ -1,0 +1,8 @@
+internet
+unix
+bash
+fone
+microfone
+teclado
+mouse
+celular
