@@ -1,0 +1,32 @@
+h2 {
+    color: red;
+    font-size: 2em;
+}
+
+body {
+    background-color: rgb(96, 207, 130);
+    font-size: 15px;
+}
+
+#titulo {
+    background-color: gold;
+    color: blue;
+}
+
+#descricao {
+    color: red;
+}
+
+.lista {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+P {
+    font-family: monospace;
+}
