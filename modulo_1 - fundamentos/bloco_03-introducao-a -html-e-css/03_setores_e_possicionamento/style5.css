@@ -1,11 +1,59 @@
-.lista-ordernada {
-background-color: yellow;
+ol li {
+    background-color: yellow;
 }
 
-.par {
-color: green;
+.lista-ordenada li:nth-of-type(2n+1) {
+    text-transform: uppercase;
 }
 
-.impar {
-text-transform: uppercase;
+.lista-ordenada li:nth-of-type(even) {
+    color: green;
+}
+
+.header {
+    color: red;
+}
+
+.header em {
+    font-size: 40px;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
+.linguagens li:nth-child(-n+3) {
+    color: blue;
+}
+
+li>Java {
+    background-color: pink;
+}
+
+.java {
+    background-color: pink;
+}
+
+li:hover:nth-of-type(1)>a {
+    color: orange;
+}
+
+li:hover:nth-of-type(2)>a {
+    color: rgb(14, 196, 14);
+}
+
+li:hover:nth-of-type(3)>a {
+    color: black;
+}
+
+li:hover:nth-of-type(4)>a {
+    color: yellow;
+}
+
+li:hover:nth-of-type(5)>a {
+    color: green;
 }
