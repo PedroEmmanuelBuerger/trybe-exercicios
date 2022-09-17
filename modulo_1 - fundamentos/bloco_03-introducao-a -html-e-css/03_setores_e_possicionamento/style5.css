@@ -16,6 +16,7 @@ ol li {
 
 .header em {
     font-size: 40px;
+    border: 1px solid black;
 }
 
 li {
