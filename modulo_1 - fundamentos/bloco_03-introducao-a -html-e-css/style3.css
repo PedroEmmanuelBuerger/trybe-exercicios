@@ -1,0 +1,8 @@
+h1,p{
+text-align: center;
+}
+.lista:hover{
+   list-style: none;
+   background-color: rgb(23, 197, 67);
+   font-family: sans-serif;
+}
