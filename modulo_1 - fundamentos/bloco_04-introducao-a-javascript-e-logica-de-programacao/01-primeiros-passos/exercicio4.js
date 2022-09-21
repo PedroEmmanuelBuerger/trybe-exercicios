@@ -63,3 +63,10 @@ switch (mes) {
 console.log(estacaoDoAno); // 'Outono'
 
 // A estrutura switch/case é utilizada quando queremos executar diferentes ações. A expressão que passamos para o switch é avaliada apenas uma vez, e o seu valor é comparado em cada caso. Se essa comparação for verdadeira, o código do caso avaliado é executado. Se nenhum valor satisfizer os casos listados, é executado o código em default.
+const a = 0;
+const b = 5;
+const c = 3;
+const tudo = a + b + c;
+if (tudo == true){
+    console.log(tudo)
+}
