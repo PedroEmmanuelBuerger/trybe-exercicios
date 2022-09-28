@@ -1,0 +1,12 @@
+let cabecalho = document.getElementById('header-container');
+cabecalho.style.backgroundColor = 'rgb(0, 200, 120)'
+cabecalho.style.color = 'rgb(255, 255, 255)'
+let roxo = document.getElementsByClassName('emergency-tasks')
+roxo[0].style.color = 'purple'
+roxo[0].style.backgroundColor = 'pink'
+let amarelo = document.getElementsByClassName('no-emergency-tasks')
+amarelo[0].style.color = 'black'
+amarelo[0].style.backgroundColor = 'yellow'
+let rodape = document.querySelector('#footer-container')
+rodape.style.backgroundColor = 'gray'
+rodape.style.color = 'white'
