@@ -64,8 +64,8 @@ function mudarsexta() {
         if (sextas[index].innerText != 'sextou!') {
             sextas[index].innerText = 'sextou!'
         }
-        else { 
-        sextas[index].innerText = sexta2
+        else {
+            sextas[index].innerText = sexta2
         }
         sexta2 = sexta2 + 7
     }
@@ -73,3 +73,34 @@ function mudarsexta() {
 }
 
 document.querySelector('#btn-friday').addEventListener('click', mudarsexta)
+
+
+
+let teste = document.querySelector('#days')
+teste.addEventListener('mouseover', aumentar)
+teste.addEventListener('mouseout', diminuir)
+function aumentar(evento) {
+    evento.target.style.fontSize = '50px'
+
+}
+
+function diminuir(evento2) {
+    evento2.target.style.fontSize = '20px'
+}
+
+let mytask = document.querySelector('.my-tasks')
+function tarefa(parametro) {
+    let texto = document.createElement('span')
+    texto.innerHTML = parametro
+    mytask.appendChild(texto)
+}
+tarefa('pedro')
+
+function mudarcortarefa (cor){
+let corsinha = document.createElement('div')
+corsinha.className = ('task')
+corsinha.style.backgroundColor = cor
+mytask.appendChild(corsinha)
+}
+
+mudarcortarefa('red')
