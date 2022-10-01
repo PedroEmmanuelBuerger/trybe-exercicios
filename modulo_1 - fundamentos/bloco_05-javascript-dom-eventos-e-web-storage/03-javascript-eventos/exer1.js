@@ -96,11 +96,30 @@ function tarefa(parametro) {
 }
 tarefa('pedro')
 
-function mudarcortarefa (cor){
-let corsinha = document.createElement('div')
-corsinha.className = ('task')
-corsinha.style.backgroundColor = cor
-mytask.appendChild(corsinha)
+function mudarcortarefa(cor) {
+    let corsinha = document.createElement('div')
+    corsinha.className = ('task')
+    corsinha.style.backgroundColor = cor
+    mytask.appendChild(corsinha)
+    a = cor
 }
 
-mudarcortarefa('red')
+mudarcortarefa('rgb(180,100,20)')
+
+
+let Task = document.querySelector('.my-tasks')
+Task.addEventListener('click',function(event){
+    if(event.target.className == 'task'){
+        event.target.className = 'task selected'
+    }else event.target.className = 'task'
+})
+
+
+let coratual = 'rgb(119, 119, 119)'
+let tentativa = document.querySelector('.task')
+tentativa.addEventListener('click', function(cortoda){
+coratual = cortoda.target.style.backgroundColor
+})
+teste.addEventListener('click', function(testando){
+ testando.target.style.color = coratual
+})
