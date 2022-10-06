@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="formulario">formulário:</h1>
+    <form action="">
+    <label for="nomeCompleto">Nome:
+        <input type="text" name="nomeCompleto" id="nomeCompleto" required placeholder="ex:pedro emmanuel...."
+            maxlength="40" minlength="10">
+    </label>
+    <br>
+    <br>
+    <label for="input-email">Email:
+        <input type="email" name="email" id="input-email" required placeholder="ex:sombraios@hotmail.com..."
+            maxlength="50" minlength="10">
+    </label>
+    <br><br>
+    <label for="destino-escolido1">Destino preferido:
+        <input type="radio" name="lugares" id="destino-escolido1" value="sp">São Paulo
+    </label>
+    <label for="destino-escolido2">
+        <input type="radio" name="lugares" id="destino-escolido2" value="rj">Rio de Janeiro
+    </label>
+    <label for="destino-escolido3">
+        <input type="radio" name="lugares" id="destino-escolido3" value="sc">Santa Catarina
+    </label>
+    <label for="destino-escolido4">
+        <input type="radio" name="lugares" id="destino-escolido4" value="mg">Minas Gerais
+    </label>
+    <br><br>
+    <label for="textao">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+        <br>
+        <textarea name="resposta" id="textao" cols="30" rows="10" maxlength="500"
+            placeholder="Sua resposta aqui!"></textarea>
+    </label>
+    <br><br>
+    <label for="data">Qual a melhor data para realizar sua viagem?
+        <br>
+        <input type="date" name="data" id="data" value="2022-08-06">
+    </label>
+<br><br>
+<label for="promocoes">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+    <br>
+    <input type="checkbox">sim, gostaria!
+    <br><br>
+</label>
+<label for="opurtunidades">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+    <br>
+    <input type="checkbox">concordo.
+</label>
+<br><br>
+<input type="submit" value="enviar" class="botao" id="botao">
+<input type="reset" value="resetar" class="botao">
+</form>
+<script src="script.js"></script>
+</body>
+
+</html>
