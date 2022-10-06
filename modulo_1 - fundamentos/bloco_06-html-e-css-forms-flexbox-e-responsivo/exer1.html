@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+    <script>
+        function stopDefAction(evt) {
+            evt.preventDefault();
+        }
+        </script>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +14,10 @@
 </head>
 
 <body>
+    
     <h1>exercicio1</h1>
+    <a href="www.betrybe.com" target="_blank" id="href">TRYBE</a>
+    <input type="text" id="input-text"/>
     <form action="" method="GET" enctype="multipart/form-data">
         <label for="input-text">digite seu nome:</label>
         <input type="text" name="texto" placeholder="digite algo" required id="input-text">
