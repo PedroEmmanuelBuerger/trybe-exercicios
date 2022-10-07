@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <h1 id="formulario" class="display-1 text-center text-danger">formulário</h1>
+
+        <form action="" class="form-control" id="form">
+            <br>
+            <section>
+                <label for="nomeCompleto" class="form-label input-group-text" id="basic-addon1">Nome:
+                    <input  type="text" name="nomeCompleto" id="nomeCompleto" required
+                        placeholder="ex:pedro emmanuel...." maxlength="40" minlength="10" class="form-control">
+                </label>
+            </section>
+            <br>
+            <br>
+            <section class=>
+                <label for="input-email" class="form-label input-group-text" id="basic-addon1">Email:
+                    <input class="form-control" type="email" name="email" id="input-email" required
+                        placeholder="ex:sombraios@hotmail.com..." maxlength="50" minlength="10">
+            </section>
+            </label>
+            <br><br>
+            <section>
+                <label for="destino-escolido1" class="form-label">Destino preferido:
+                    <input type="radio" name="lugares" id="destino-escolido1" value="sp">São Paulo
+                </label>
+            </section>
+            <section >
+                <label for="destino-escolido2" class="form-label">
+                    <input type="radio" name="lugares" id="destino-escolido2" value="rj">Rio de Janeiro
+                </label>
+            </section>
+            <section >
+                <label for="destino-escolido3">
+                    <input type="radio" name="lugares" id="destino-escolido3" value="sc">Santa Catarina
+                </label>
+            </section>
+            <section >
+                <label for="destino-escolido4" class="form-label">
+                    <input type="radio" name="lugares" id="destino-escolido4" value="mg">Minas Gerais
+                </label>
+            </section>
+            <br><br>
+            <section>
+                <label for="textao">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+                    <br>
+            </section>
+            <section>
+                <textarea name="resposta" id="textao" cols="30" rows="10" maxlength="500"
+                    placeholder="Sua resposta aqui!"></textarea>
+                </label>
+            </section>
+            <br><br>
+            <section>
+                <label for="data">Qual a melhor data para realizar sua viagem?
+                    <br>
+            </section>
+            <section>
+                <input type="date" name="data" id="data" value="2022-08-06">
+                </label>
+            </section >
+            <br><br>
+            <section>
+                <label for="promocoes">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                    <br>
+            </section>
+            <section>
+                <input type="checkbox" class="form-check-input">sim, gostaria!
+                <br><br>
+            </section>
+            <section>
+                </label>
+                <label for="opurtunidades">Concordo que imagens das minhas férias poderão ser usadas na divulgação de
+                    concursos futuros.
+                    <br>
+            </section>
+            <section>
+                <input type="checkbox" class="form-check-input">concordo.
+                </label>
+            </section>
+            <section>
+                <br><br>
+                <input type="submit" value="enviar" class="botao" id="botao">
+                <input type="reset" value="resetar" class="botao">
+            </section>
+            <br>
+        </form>
+        <script src="script.js"></script>
+    </body>
+
+
+</html>
