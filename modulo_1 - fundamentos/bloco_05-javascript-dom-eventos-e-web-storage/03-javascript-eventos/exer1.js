@@ -122,4 +122,4 @@ coratual = cortoda.target.style.backgroundColor
 })
 teste.addEventListener('click', function(testando){
  testando.target.style.color = coratual
-})
+}) 
