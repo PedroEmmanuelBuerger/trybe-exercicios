@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@media screen and (min-width: 850px) and (max-width:1920px) {
+    body {
+        background-color: grey;
+        font-size: 15px;
+        max-width: 95%;
+        padding-left: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: rgb(243, 217, 217);
+    }
+
+    .linha {
+        display: none;
+    }
+    .title{
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width:850px) {
+    body {
+        background-color: rgb(179, 252, 10);
+        font-size: 15px;
+        max-width: 100%;
+        padding-left: 5px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 15px;
+        color: rgb(68, 28, 28);
+    }
+
+    .title {font-size: 30px;}
+}
+
+@media screen and (min-width: 3000px) and (max-width: 4000px){
+    body {
+        background-color: rgb(185, 252, 241);
+        font-size: 100px;
+        max-width: 100%;
+        padding-left: 35px;
+    }
+
+    h1 {
+        font-size: 150px;
+    }
+
+    h2 {
+        font-size: 140px;
+    }
+
+    h3 {
+        font-size: 130px;
+        color: rgb(68, 28, 28);
+    }
+
+    .title {font-size: 130px;}
+    hr{
+    border: 20px solid black;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    }
+}
+    
