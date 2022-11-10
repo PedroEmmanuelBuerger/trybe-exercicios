@@ -1,0 +1,23 @@
+{
+  "hash": "10b1a52d",
+  "browserHash": "8e7ab9f1",
+  "optimized": {
+    "clipboard-copy": {
+      "src": "../../exer1/node_modules/clipboard-copy/index.js",
+      "file": "clipboard-copy.js",
+      "fileHash": "9290a1fb",
+      "needsInterop": true
+    },
+    "nanoid": {
+      "src": "../../exer1/node_modules/nanoid/index.browser.js",
+      "file": "nanoid.js",
+      "fileHash": "ff3b4a83",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
+    }
+  }
+}
